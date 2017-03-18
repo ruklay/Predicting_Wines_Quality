@@ -23,7 +23,7 @@ function NN(MAX_ITR,alpha,lambda,d,l2=14,l3=11)
 	y = csvread(FileOutputTrain);
 
 	% Change the hyphothesis equation based on Model Complexity (d)
-	[x, equation] = map_feature(x,d);
+	%[x, equation] = map_feature(x,d);
 	
 	[m, n] = size(x);
 	[p, k] = size(y); 	 % k is 6 possible values (3 to 8)

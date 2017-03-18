@@ -16,7 +16,7 @@ function TestNN(prefix="Test", d=1)
 	theta2 = csvread(FileTheta2);
 	theta3 = csvread(FileTheta3);
 
-	[x, equation] = map_feature(x,d);
+	%[x, equation] = map_feature(x,d);
 	[m, n] = size(x);
 	[p, k] = size(y); 
 
